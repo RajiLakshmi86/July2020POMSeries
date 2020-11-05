@@ -7,22 +7,19 @@
 	<listeners>
 	 <listener
 			class-name="com.qa.hubspot.listeners.TesultsListener" />
-
-</listeners>
-	<!-- </listeners>
 		 <listener
 			class-name="com.qa.hubspot.listeners.ExtentReportListener" />
-	 -->
+
 		<!-- <listener
 			class-name="com.qa.hubspot.listeners.ScreenshotListener" /> -->
 			
-			<!-- <listener
-			class-name="com.qa.hubspot.listeners.TesultsListener" />-->
-			<!-- <listener 
-	class-name="com.qa.hubspot.TestAllureListener" />-->
+			 <listener
+			class-name="com.qa.hubspot.listeners.TesultsListener" />
+			<listener 
+	class-name="com.qa.hubspot.TestAllureListener" />
 
 
-
+</listeners>
 	<test name="Login page Test - FF">
 		<parameter name="browser" value="firefox" />
 
