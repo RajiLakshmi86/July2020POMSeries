@@ -13,8 +13,7 @@
 		<!-- <listener
 			class-name="com.qa.hubspot.listeners.ScreenshotListener" /> -->
 			
-			 <listener
-			class-name="com.qa.hubspot.listeners.TesultsListener" />
+			
 			<listener 
 	class-name="com.qa.hubspot.TestAllureListener" />
 
