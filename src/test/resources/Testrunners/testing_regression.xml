@@ -22,7 +22,7 @@
 		<parameter name="browser" value="firefox" />
 
 		<classes>
-			<class name="com.qa.hubspot.tests.LoginPageTest" />
+			<class name="com.qa.hubspot.test.LoginPageTest" />
 		</classes>
 
 	</test>

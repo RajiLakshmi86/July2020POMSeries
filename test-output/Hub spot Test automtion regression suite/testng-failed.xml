@@ -4,6 +4,17 @@
   <listeners>
     <listener class-name="com.qa.hubspot.listeners.ExtentReportListener"/>
   </listeners>
+  <test thread-count="3" verbose="3" name="Login page Test - FF(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.qa.hubspot.test.LoginPageTest">
+        <methods>
+          <include name="loginTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.qa.hubspot.test.LoginPageTest -->
+    </classes>
+  </test> <!-- Login page Test - FF(failed) -->
   <test thread-count="3" verbose="3" name="Login page Test - Chrome(failed)" parallel="tests">
     <parameter name="browser" value="chrome"/>
     <classes>
