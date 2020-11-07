@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -54,7 +54,7 @@
                 </li>
                 <li>
                   <a href="#" class="navigator-link " panel-name="testlist-Hub_spot_Test_automtion_regression_suite">
-                    <span class="test-stats">2 tests</span>
+                    <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">6 methods, 2 failed,   4 passed</span>
+                    <span class="method-stats">3 methods, 1 failed,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -100,11 +100,6 @@
                       <a href="#" panel-name="suite-Hub_spot_Test_automtion_regression_suite" class="show-methods failed suite-Hub_spot_Test_automtion_regression_suite"> (show)</a> <!-- show-methods failed suite-Hub_spot_Test_automtion_regression_suite -->
                     </span>
                     <div class="method-list-content failed suite-Hub_spot_Test_automtion_regression_suite">
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Hub_spot_Test_automtion_regression_suite" title="com.qa.hubspot.test.LoginPageTest" hash-for-method="loginTest">loginTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
                       <span>
                         <img width="3%" src="failed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Hub_spot_Test_automtion_regression_suite" title="com.qa.hubspot.test.LoginPageTest" hash-for-method="loginTest">loginTest</a> <!-- method navigator-link -->
@@ -122,16 +117,6 @@
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Hub_spot_Test_automtion_regression_suite" title="com.qa.hubspot.test.LoginPageTest" hash-for-method="verifyLoginPageTitleTest">verifyLoginPageTitleTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Hub_spot_Test_automtion_regression_suite" title="com.qa.hubspot.test.LoginPageTest" hash-for-method="verifyLoginPageTitleTest">verifyLoginPageTitleTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Hub_spot_Test_automtion_regression_suite" title="com.qa.hubspot.test.LoginPageTest" hash-for-method="verifySignUpLinkTest">verifySignUpLinkTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -166,48 +151,8 @@
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;LAPTOP34SPTP47R&apos;, ip: &apos;192.168.0.118&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_271&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\91971\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52563}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: dd483141451daf2d5fa55e8a9a7a950c
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
-	at com.qa.hubspot.util.Elementutil.waitForPageTitlePresent(Elementutil.java:162)
-	at com.qa.hubspot.pages.HomePage.getHomePageTitle(HomePage.java:27)
-	at com.qa.hubspot.test.LoginPageTest.loginTest(LoginPageTest.java:42)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:648)
-	at org.testng.TestRunner.run(TestRunner.java:505)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-	at java.util.concurrent.FutureTask.run(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-	at java.lang.Thread.run(Unknown Source)
-
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="loginTest">
-                  </a> <!-- loginTest -->
-                  <span class="method-name">loginTest</span>
-                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for title to contain &quot;Account Setup | HubSpot&quot;. Current title: &quot;HubSpot Login&quot; (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;LAPTOP34SPTP47R&apos;, ip: &apos;192.168.0.118&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_271&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 81.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201012085804, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 6060, moz:profile: C:\Users\91971\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 4de7e4cb-c51f-4f72-b77b-c4eaad635153
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\91971\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51010}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: ab57e788557c59696fad450e6d2642a3
 	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
 	at com.qa.hubspot.util.Elementutil.waitForPageTitlePresent(Elementutil.java:162)
@@ -254,20 +199,6 @@ Session ID: 4de7e4cb-c51f-4f72-b77b-c4eaad635153
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyLoginPageTitleTest">
-                  </a> <!-- verifyLoginPageTitleTest -->
-                  <span class="method-name">verifyLoginPageTitleTest</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifySignUpLinkTest">
-                  </a> <!-- verifySignUpLinkTest -->
-                  <span class="method-name">verifySignUpLinkTest</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="verifySignUpLinkTest">
                   </a> <!-- verifySignUpLinkTest -->
                   <span class="method-name">verifySignUpLinkTest</span>
@@ -286,14 +217,8 @@ Session ID: 4de7e4cb-c51f-4f72-b77b-c4eaad635153
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite thread-count=&quot;3&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;3&quot; name=&quot;Hub spot Test automtion regression suite&quot; parallel=&quot;tests&quot;&gt;
   &lt;listeners&gt;
-    &lt;listener class-name=&quot;com.qa.hubspot.listeners.TesultsListener&quot;/&gt;
+    &lt;listener class-name=&quot;com.qa.hubspot.listeners.ExtentReportListener&quot;/&gt;
   &lt;/listeners&gt;
-  &lt;test thread-count=&quot;3&quot; verbose=&quot;3&quot; name=&quot;Login page Test - FF&quot; parallel=&quot;tests&quot;&gt;
-    &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
-    &lt;classes&gt;
-      &lt;class name=&quot;com.qa.hubspot.test.LoginPageTest&quot;/&gt;
-    &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Login page Test - FF --&gt;
   &lt;test thread-count=&quot;3&quot; verbose=&quot;3&quot; name=&quot;Login page Test - Chrome&quot; parallel=&quot;tests&quot;&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
@@ -310,9 +235,6 @@ Session ID: 4de7e4cb-c51f-4f72-b77b-c4eaad635153
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <ul>
-              <li>
-                <span class="test-name">Login page Test - FF (1 class)</span>
-              </li>
               <li>
                 <span class="test-name">Login page Test - Chrome (1 class)</span>
               </li>
@@ -340,36 +262,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(6);
+data.addRows(3);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'loginTest')
 data.setCell(0, 2, 'com.qa.hubspot.test.LoginPageTest')
-data.setCell(0, 3, 10820);
+data.setCell(0, 3, 10599);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'loginTest')
+data.setCell(1, 1, 'verifySignUpLinkTest')
 data.setCell(1, 2, 'com.qa.hubspot.test.LoginPageTest')
-data.setCell(1, 3, 10711);
+data.setCell(1, 3, 5510);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'verifySignUpLinkTest')
+data.setCell(2, 1, 'verifyLoginPageTitleTest')
 data.setCell(2, 2, 'com.qa.hubspot.test.LoginPageTest')
-data.setCell(2, 3, 6790);
-data.setCell(3, 0, 3)
-data.setCell(3, 1, 'verifySignUpLinkTest')
-data.setCell(3, 2, 'com.qa.hubspot.test.LoginPageTest')
-data.setCell(3, 3, 4908);
-data.setCell(4, 0, 4)
-data.setCell(4, 1, 'verifyLoginPageTitleTest')
-data.setCell(4, 2, 'com.qa.hubspot.test.LoginPageTest')
-data.setCell(4, 3, 526);
-data.setCell(5, 0, 5)
-data.setCell(5, 1, 'verifyLoginPageTitleTest')
-data.setCell(5, 2, 'com.qa.hubspot.test.LoginPageTest')
-data.setCell(5, 3, 418);
+data.setCell(2, 3, 312);
 window.suiteTableData['Hub_spot_Test_automtion_regression_suite']= { tableData: data, tableDiv: 'times-div-Hub_spot_Test_automtion_regression_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 34 seconds</span>
+              <span class="suite-total-time">Total running time: 16 seconds</span>
               <div id="times-div-Hub_spot_Test_automtion_regression_suite">
               </div> <!-- times-div-Hub_spot_Test_automtion_regression_suite -->
             </div> <!-- times-div -->
@@ -400,37 +310,19 @@ return data;
                 <span class="method-name">setUp(chrome)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
-              <div class="configuration-test before">
-                <span class="method-name">setUp(firefox)</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">verifySignUpLinkTest</span>
-                <span class="method-start">11757 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">verifySignUpLinkTest</span>
-                <span class="method-start">13250 ms</span>
+                <span class="method-start">13609 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyLoginPageTitleTest</span>
-                <span class="method-start">18751 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">verifyLoginPageTitleTest</span>
-                <span class="method-start">18752 ms</span>
+                <span class="method-start">19590 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">loginTest</span>
-                <span class="method-start">19172 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">loginTest</span>
-                <span class="method-start">19281 ms</span>
+                <span class="method-start">19908 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

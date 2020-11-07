@@ -18,8 +18,6 @@ import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 import com.aventstack.extentreports.reporter.configuration.ChartLocation;
 import com.aventstack.extentreports.reporter.configuration.Theme;
 import com.qa.hubspot.Base.BasePage;
-
-
 public class ExtentReportListener extends BasePage implements ITestListener {
 
 	private static final String OUTPUT_FOLDER = "./build/";
@@ -125,5 +123,3 @@ public class ExtentReportListener extends BasePage implements ITestListener {
 	}
 
 }
-
-
